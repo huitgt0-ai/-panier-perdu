@@ -20,7 +20,8 @@ export default function Home() {
 
             <div className="mt-8 hidden md:block">
               <a
-                href="#tarif"
+                href="https://buy.stripe.com/test_4gM5kwgxx5VhaUQ6ozfAc00
+"
                 className="inline-flex items-center justify-center rounded-sm bg-burnt px-7 py-4 font-body text-base font-semibold text-paper transition-colors hover:bg-ink"
               >
                 Récupérer mes premières ventes
@@ -82,7 +83,8 @@ export default function Home() {
             arrêtez quand vous voulez.
           </p>
           <a
-            href="#"
+            href="#tarif"
+"bn
             className="mt-8 inline-flex items-center justify-center rounded-sm bg-amber px-7 py-4 font-body text-base font-semibold text-ink transition-colors hover:bg-paper"
           >
             Récupérer mes premières ventes
