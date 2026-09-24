@@ -20,8 +20,7 @@ export default function Home() {
 
             <div className="mt-8 hidden md:block">
               <a
-                href="https://buy.stripe.com/test_4gM5kwgxx5VhaUQ6ozfAc00
-"
+                href="https://buy.stripe.com/test_4gM5kwgxx5VhaUQ6ozfAc00"
                 className="inline-flex items-center justify-center rounded-sm bg-burnt px-7 py-4 font-body text-base font-semibold text-paper transition-colors hover:bg-ink"
               >
                 Récupérer mes premières ventes
@@ -83,9 +82,7 @@ export default function Home() {
             arrêtez quand vous voulez.
           </p>
           <a
-            href="https://buy.stripe.com/test_4gM5kwgxx5VhaUQ6ozfAc00
-
-
+            href="https://buy.stripe.com/test_4gM5kwgxx5VhaUQ6ozfAc00"
             className="mt-8 inline-flex items-center justify-center rounded-sm bg-amber px-7 py-4 font-body text-base font-semibold text-ink transition-colors hover:bg-paper"
           >
             Récupérer mes premières ventes
@@ -97,7 +94,6 @@ export default function Home() {
       <div className="fixed inset-x-0 bottom-0 z-20 border-t border-ink/10 bg-paper/95 px-5 py-3 backdrop-blur md:hidden">
         <a
           href="https://buy.stripe.com/test_4gM5kwgxx5VhaUQ6ozfAc00"
-
           className="flex w-full items-center justify-center rounded-sm bg-burnt px-6 py-4 font-body text-base font-semibold text-paper"
         >
           Récupérer mes ventes — 29€/mois
