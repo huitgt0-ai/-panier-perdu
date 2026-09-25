@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Fraunces, IBM_Plex_Sans } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
+import Link from "next/link";
 import "./globals.css";
 
 const fraunces = Fraunces({
@@ -47,7 +49,26 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr" className={`${fraunces.variable} ${plexSans.variable}`}>
-      <body className="font-body antialiased">{children}</body>
+      <body className="font-body antialiased">
+        {children}
+        <footer className="border-t border-ink/10 bg-paper px-5 py-8 md:py-10">
+          <div className="mx-auto flex max-w-5xl flex-col items-center gap-3 text-center font-body text-sm text-muted md:flex-row md:justify-between md:text-left">
+            <p>© {new Date().getFullYear()} Panier Perdu</p>
+            <nav className="flex flex-wrap items-center justify-center gap-x-5 gap-y-2">
+              <Link href="/mentions-legales" className="hover:text-ink">
+                Mentions légales
+              </Link>
+              <Link href="/cgv" className="hover:text-ink">
+                CGV
+              </Link>
+              <Link href="/confidentialite" className="hover:text-ink">
+                Confidentialité
+              </Link>
+            </nav>
+          </div>
+        </footer>
+        <Analytics />
+      </body>
     </html>
   );
 }
